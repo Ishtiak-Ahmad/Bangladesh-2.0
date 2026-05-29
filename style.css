@@ -432,6 +432,123 @@ td {
   .banner-image img {
     width: 100%;
   }
+  /* main */
+  /* pillars-section, future-section */
+  .pillars-section .pillars-cards,
+  .futures-section .futures-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+  .pillars-section .section-title,
+  .futures-section .section-title {
+    margin-bottom: 26px;
+  }
+  .pillars-cards img,
+  .futures-cards img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 12px;
+  }
+  .pillars-cards .card .card-title,
+  .futures-cards .card .card-title {
+    margin-bottom: 8px;
+  }
+  .futures-section .bottom-discription {
+    margin-top: 12px;
+    padding: 24px 16px;
+  }
+  .futures-section .bottom-discription h2 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+  /* opinion-matters-section */
+  .table {
+    padding: 18px;
+  }
+  .opinion-section table thead th {
+    padding: 16px;
+  }
+  .opinion-section table td {
+    padding: 12px;
+  }
+  .opinion-section table select {
+    margin: 0;
+  }
+  /* news-section */
+  .news-section .news-cards {
+    gap: 16px;
+  }
+  .news-section .news-cards .card {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .news-section .news-cards .card img {
+    width: 100%;
+    border-radius: 16px;
+  }
+  .news-section .news-cards .card .discription {
+    width: 100%;
+  }
+  .news-cards .card .discription .card-title {
+    font-size: 24px;
+  }
+  .news-cards .card .discription img {
+    border-radius: 0;
+    max-width: 100px;
+    margin: 6px 0;
+  }
+  .news-cards .card-discription {
+    margin: 12px 0 60px 0;
+  }
+  .news-cards .card:nth-child(2) {
+    flex-direction: column;
+  }
+  /* donate-section */
+  .donate-section .section-content {
+    margin-bottom: 24px;
+  }
+  .donate-section .section-content .section-discription {
+    margin: 0 22px;
+  }
+  .donate-section .donate-btn {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    margin: 0 100px;
+  }
+  .donate-section .donate-btn button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .donate-section input {
+    width: 60%;
+    margin: 0 20%;
+    margin: 24px auto;
+  }
+  /* subscribe-section */
+  .subscribe-section {
+    padding: 40px 10px;
+  }
+  .subscribe-section .section-title {
+    margin-bottom: 10px;
+  }
+  .subscribe-section form {
+    width: 80%;
+  }
+  .subscribe-section form input {
+    padding: 12px 6px;
+  }
+  .subscribe-section form input:first-child {
+    width: 60%;
+    border-radius: 4px 0 0 4px;
+  }
+  .subscribe-section form input:last-child {
+    width: 40%;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+  }
 }
 /* Medium */
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -484,6 +601,108 @@ td {
   .banner-image img {
     width: 100%;
   }
+  /* main */
+  /* pillars-section */
+  .pillars-section .pillars-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .futures-section .futures-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pillars-section .section-title,
+  .futures-section .section-title {
+    margin-bottom: 20px;
+  }
+  .pillars-cards img,
+  .futures-cards img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 12px;
+  }
+  .pillars-cards .card .card-title,
+  .futures-cards .card .card-title {
+    margin-bottom: 8px;
+  }
+  .futures-section .bottom-discription {
+    padding: 24px 18px;
+  }
+  /* news-section */
+  .news-section .news-cards {
+    gap: 16px;
+  }
+  .news-section .news-cards .card {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .news-section .news-cards .card img {
+    width: 60%;
+    /* margin: 0 auto; */
+    border-radius: 16px;
+  }
+  .news-section .news-cards .card .discription {
+    width: 100%;
+  }
+  .news-cards .card .discription .card-title {
+    font-size: 24px;
+  }
+  .news-cards .card .discription img {
+    border-radius: 0;
+    max-width: 100px;
+    margin: 6px 0;
+  }
+  .news-cards .card-discription {
+    margin: 6px 0 60px 0;
+  }
+  .news-cards .card:nth-child(2) {
+    flex-direction: column;
+  }
+  /* donate-section */
+  .donate-section .section-content {
+    margin-bottom: 20px;
+  }
+  .donate-section .section-content .section-discription {
+    margin: 0 20px;
+  }
+  .donate-section .donate-btn {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    width: 250px;
+    margin: auto;
+  }
+  .donate-section .donate-btn button {
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  .donate-section input {
+    display: block;
+    width: 200px;
+    margin: 24px auto;
+  }
+  /* subscribe-section */
+  .subscribe-section {
+    padding: 40px;
+  }
+  .subscribe-section .section-title {
+    margin-bottom: 12px;
+  }
+  .subscribe-section form {
+    width: 80%;
+  }
+  .subscribe-section form input {
+    display: block;
+    padding: 16px 10px;
+  }
+  .subscribe-section form input:first-child {
+    width: 70%;
+    border-radius: 6px 0 0 6px;
+  }
+  .subscribe-section form input:last-child {
+    width: 30%;
+    border-radius: 0 8px 8px 0;
+  }
 }
 /* large */
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -530,6 +749,106 @@ td {
   .banner-image img {
     width: 100%;
   }
+  /* main */
+  /* pillars-section */
+  .pillars-section .pillars-cards {
+    gap: 12px;
+  }
+  .pillars-section .section-title,
+  .futures-section .section-title {
+    margin-bottom: 24px;
+  }
+  .pillars-cards .card,
+  .futures-cards .card {
+    padding: 12px;
+  }
+  .pillars-cards img,
+  .futures-cards img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 16px;
+  }
+  .pillars-cards .card .card-title,
+  .futures-cards .card .card-title {
+    margin-bottom: 8px;
+  }
+  .futures-section .bottom-discription {
+    padding: 24px 18px;
+  }
+  /* news-section */
+  .news-section .news-cards {
+    gap: 16px;
+  }
+  .news-section .news-cards .card {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .news-section .news-cards .card img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+  .news-section .news-cards .card .discription {
+    width: 100%;
+    text-align: center;
+  }
+  .news-cards .card .discription .card-title {
+    font-size: 24px;
+  }
+  .news-cards .card .discription img {
+    border-radius: 0;
+    max-width: 100px;
+    margin: 6px 0;
+  }
+  .news-cards .card-discription {
+    margin: 6px 0 60px 0;
+  }
+  .news-cards .card:nth-child(2) {
+    flex-direction: column;
+  }
+  .news-cards .discription {
+    position: relative;
+  }
+  .news-cards .btn-primary {
+    position: relative;
+    bottom: 0;
+  }
+  /* donate-section */
+  .donate-section .section-content {
+    margin-bottom: 20px;
+  }
+  .donate-section .section-content .section-discription {
+    margin: 0 68px;
+  }
+  .donate-section .donate-btn {
+    gap: 18px;
+  }
+  .donate-section .donate-btn button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .donate-section input {
+    width: 66%;
+    margin: 20px auto;
+  }
+  /* subscribe-section */
+  .subscribe-section {
+    padding: 60px 80px;
+  }
+  .subscribe-section form {
+    width: 90%;
+  }
+  .subscribe-section form input {
+    padding: 18px;
+  }
+  .subscribe-section form input:first-child {
+    width: 70%;
+  }
+  .subscribe-section form input:last-child {
+    width: 30%;
+  }
 }
 /* extra-large */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -543,11 +862,55 @@ td {
   .section {
     margin-bottom: 80px;
   }
-  .banner .banner-content p{
+  .banner .banner-content p {
     font-size: 40px;
   }
   .section-title {
     font-size: 36px;
     margin-bottom: 24px;
+  }
+  /* main */
+  /* news-section */
+  .news-section .news-cards .card {
+    padding: 26px;
+    gap: 20px;
+  }
+  .news-cards .card .discription .card-title {
+    font-size: 30px;
+  }
+  .news-cards .card .discription img {
+    margin: 12px 0;
+  }
+  .news-cards .card-discription {
+    margin: 6px 0 56px 0;
+  }
+  /* donate-section */
+  .donate-section .section-content {
+    margin-bottom: 24px;
+  }
+  .donate-section .donate-btn button {
+    font-size: 24px;
+    padding: 20px 14px;
+    border-radius: 8px;
+  }
+  .donate-section input {
+    width: 66%;
+    margin: 24px auto;
+  }
+  /* subscribe-section */
+  .subscribe-section {
+    padding: 60px 80px;
+  }
+  .subscribe-section form {
+    width: 90%;
+  }
+  .subscribe-section form input {
+    padding: 18px;
+  }
+  .subscribe-section form input:first-child {
+    width: 70%;
+  }
+  .subscribe-section form input:last-child {
+    width: 30%;
   }
 }
