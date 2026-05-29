@@ -122,6 +122,266 @@ nav button:hover {
 .banner-image {
   width: 40%;
 }
+/* main */
+/* pillars-section, futures-section */
+.pillars-section .section-title {
+  margin-bottom: 32px;
+}
+.pillars-section .pillars-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.pillars-cards .card,
+.futures-cards .card {
+  box-shadow: 0px 0px 2px rgb(188, 188, 188);
+  border-radius: 16px;
+  background: #fff;
+  padding: 24px;
+}
+.pillars-cards img,
+.futures-cards img {
+  max-width: 62px;
+  max-height: 62px;
+  margin-bottom: 24px;
+}
+.pillars-cards .card .card-title,
+.futures-cards .card .card-title,
+.news-section {
+  font-size: 20px;
+  font-weight: 700;
+}
+.futures-section .section-discription {
+  margin-bottom: 32px;
+}
+.futures-section .futures-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.futures-cards .card .card-discription {
+  margin-bottom: 36px;
+  margin-top: 12px;
+}
+.futures-cards .card {
+  position: relative;
+}
+.futures-cards .card-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+}
+.futures-cards .card:nth-child(1) {
+  background: rgba(84, 144, 245, 0.2);
+}
+.futures-cards .card:nth-child(2) {
+  background: rgba(198, 228, 214, 1);
+}
+.futures-cards .card:nth-child(3) {
+  background: rgba(247, 235, 207, 1);
+}
+.futures-cards .btn-1:hover {
+  background: rgb(64, 109, 187);
+}
+.futures-cards .btn-2:hover {
+  background: rgb(8, 134, 77);
+}
+.futures-cards .btn-3:hover {
+  background: rgb(184, 141, 42);
+}
+.futures-section .bottom-discription {
+  margin-top: 24px;
+  padding: 48px 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 2px rgb(188, 188, 188);
+}
+.futures-section .bottom-discription i {
+}
+.futures-section .bottom-discription h2 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* opinion-matters-section */
+.table {
+  padding: 32px;
+  border-radius: 16px;
+  background: #fff;
+}
+.opinion-section table {
+  width: 100%;
+}
+.opinion-section table,
+tr,
+td {
+  border: 2px solid rgba(14, 14, 14, 0.3);
+  border-collapse: collapse;
+}
+.opinion-section table thead th {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding: 24px;
+}
+.opinion-section table thead th:last-child {
+  text-align: right;
+}
+.opinion-section table td {
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  padding: 24px;
+}
+.opinion-section table select {
+  font-weight: 500;
+  padding: 12px 16px;
+  text-align: center;
+  /* width: 150px; */
+  margin: 0 20px;
+  border-radius: 4px;
+}
+.opinion-section table select option {
+  background: #fff;
+}
+/* news-section */
+.news-section .section-discription {
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-section .news-cards {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.news-section .news-cards .card {
+  background: #fff;
+  padding: 48px;
+  border-radius: 16px;
+  display: flex;
+  gap: 32px;
+}
+.news-section .news-cards .card img {
+  width: 40%;
+  border-radius: 24px;
+}
+.news-section .news-cards .card .discription {
+  width: 60%;
+}
+.news-cards .card .discription .card-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.news-cards .card .discription img {
+  max-width: 140px;
+  border-radius: 0;
+  margin: 12px 0;
+}
+.news-cards p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-cards .card-discription {
+  margin: 12px 0 32px 0;
+}
+.news-cards .discription {
+  position: relative;
+}
+.news-cards .btn-primary {
+  position: absolute;
+  bottom: 0;
+}
+.news-cards .card:nth-child(2) {
+  flex-direction: row-reverse;
+}
+/* donate-section */
+.donate-section .section-content {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.donate-section .section-content .section-discription {
+  margin: 0 88px;
+}
+.donate-section .donate-btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin: 0 100px;
+}
+.donate-section .donate-btn button {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 16px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 0 2px #ccc6c6;
+}
+.donate-section .donate-btn button:focus {
+  background: rgba(198, 228, 214, 1);
+}
+.donate-section input {
+  display: block;
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  border: none;
+  box-shadow: 0px 1px 0 #d8d2d2;
+  margin: 24px auto;
+}
+.donate-section .btn {
+  text-align: center;
+}
+/* subscribe-section */
+.subscribe-section {
+  padding: 80px 100px;
+  text-align: center;
+  border-radius: 16px;
+}
+.subscribe-section .section-title {
+  margin-bottom: 16px;
+}
+.subscribe-section .section-discription {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.subscribe-section form {
+  display: flex;
+  margin: 24px auto;
+  width: 70%;
+}
+.subscribe-section form input {
+  display: block;
+  padding: 18px 30px;
+  border: none;
+  background: #fff;
+  font-size: 18px;
+  outline: 0;
+}
+.subscribe-section form input:first-child {
+  width: 80%;
+  border-radius: 8px 0 0 8px;
+}
+.subscribe-section form input:last-child {
+  width: 20%;
+  background: rgba(0, 106, 80, 1);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0 8px 8px 0;
+}
+.subscribe-section form input:last-child:hover {
+  background: #034636;
+  transition: 0.2s;
+}
 
 /* Responsive design */
 /* Small */
